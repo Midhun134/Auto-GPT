@@ -33,6 +33,11 @@ is a Rust-based project that creates automated full-stack web applications using
 • Includes safety checks before executing AI-generated code
 • Allows user review of generated code
 • Has built-in error handling and bug tracking
+
+
+
+
+
 The project essentially automates the process of web development by using AI agents to handle different aspects of the development process, from architecture to implementation, while maintaining safety and quality checks throughout the process.
 For example, if a user requests "build a fitness tracking app", the system would automatically:
 Analyze the requirements
