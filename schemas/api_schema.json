@@ -1,0 +1,75 @@
+[
+  {
+    "route": "/page",
+    "is_route_dynamic": "false",
+    "method": "post",
+    "request_body": {
+      "id": "number",
+      "title": "string",
+      "content": "string"
+    },
+    "response": "None"
+  },
+  {
+    "route": "/page",
+    "is_route_dynamic": "false",
+    "method": "get",
+    "request_body": "None",
+    "response": [
+      {
+        "id": "number",
+        "title": "string",
+        "content": "string"
+      }
+    ]
+  },
+  {
+    "route": "/page/{id}",
+    "is_route_dynamic": "true",
+    "method": "get",
+    "request_body": "None",
+    "response": {
+      "id": "number",
+      "title": "string",
+      "content": "string"
+    }
+  },
+  {
+    "route": "/page",
+    "is_route_dynamic": "false",
+    "method": "put",
+    "request_body": {
+      "id": "number",
+      "title": "string",
+      "content": "string"
+    },
+    "response": "None"
+  },
+  {
+    "route": "/page/{id}",
+    "is_route_dynamic": "true",
+    "method": "delete",
+    "request_body": "None",
+    "response": "None"
+  },
+  {
+    "route": "/login",
+    "is_route_dynamic": "false",
+    "method": "post",
+    "request_body": {
+      "username": "string",
+      "password": "string"
+    },
+    "response": "None"
+  },
+  {
+    "route": "/register",
+    "is_route_dynamic": "false",
+    "method": "post",
+    "request_body": {
+      "username": "string",
+      "password": "string"
+    },
+    "response": "None"
+  }
+]
