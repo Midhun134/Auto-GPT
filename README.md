@@ -1,4 +1,4 @@
-## AutoGPT 
+# AutoGPT 
 is a Rust-based project that creates automated full-stack web applications using AI agents. Here are the key components and features:
 1) Agent-Based Architecture:
 • Uses multiple specialized AI agents working together:
